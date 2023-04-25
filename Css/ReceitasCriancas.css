@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+}
+.row{
+    margin: 0%;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+
+}
+/* botao volta para o inicio */
+.voltar-ao-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+  }
+  
+/*botao volta para o final */
