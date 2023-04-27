@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="Css/ReceitasCriancas.css">
     <title>RECEITAS De CRIANÇAS</title>
 </head>
-<body>
+<body class="fundo">
      <!-- cabeçario -->
      <?php 
     include 'menu.php';
   ?>
     <!-- receitas  -->
-    <main class="container mt-5 border border-1 border-black">
+    <main class="container mt-5 border border-1 border-black bg-white">
         <div class="m-4">
-          <a class="text-black" href="receita.html">&Larr; Voltar</a>
+          <a class="text-black" href="receita.php">&Larr; Voltar</a>
         </div>
         <div class="row row-cols-1 row-cols-md-2 g-4 m-4">
             <div class="col">

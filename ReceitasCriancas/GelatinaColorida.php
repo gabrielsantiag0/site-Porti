@@ -8,15 +8,20 @@
     <link rel="stylesheet" href="../Css/receitasEmGeral.css"> 
     <title>Gelatina Colorida</title>
 </head>
-<body>
+<body class="fundo">
     <!-- cabecario  -->
 <?php 
     include 'menu.php'; 
 ?>
 <!-- receita  -->
-<main class="container">
+<main class="container border border-3 mt-3 rounded-3 bg-white">
+  <div class="m-5">
+
     <div class="container">
       <div class="row">
+      <div>
+      <a class="text-black" href="../ReceitasCriancas.php">↞ Voltar</a>
+      </div>
         <div class="col m-5">
         <div>
                 <h2 class="mt-3">Gelatina Colorida</h2>
@@ -104,6 +109,7 @@
   </tbody>
 </table>
     </div>
+  </div>
 </main>
 
 <!-- rodapé  -->

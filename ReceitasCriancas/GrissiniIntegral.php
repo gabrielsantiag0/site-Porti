@@ -8,36 +8,48 @@
     <link rel="stylesheet" href="../Css/receitasEmGeral.css"> 
     <title>Grissini integral</title>
 </head>
-<body>
+<body class="fundo">
     <!-- cabeçario -->
 <?php 
     include 'menu.php'; 
 ?>
 
 <!-- receita  -->
-<main class="container border border-3 mt-3 rounded-3">
+<main class="container border border-3 mt-3 rounded-3 bg-white">
     <div class="m-5">
+    <div class="container">
+      <div class="row">
+      <div>
+      <a class="text-black" href="../ReceitasCriancas.php">↞ Voltar</a>
+      </div>
+        <div class="col m-5">
         <div>
-            <h2 class="mt-3">Grissini integral</h2>
-        </div>
-        <div class="fonte fs-3 mt-4">
-            <h5>
-                <strong>Rendimento: 36 unidades</strong>
+                <h2 class="mt-3">Grissini integral</h2>
+            </div>
+            <div class="fonte fs-3 mt-4">
+                <h5>
+                    <strong>Rendimento: 36 unidades</strong>
+                </h5>
+            <h5 class="mt-4">
+                <strong>Ingredientes</strong>
             </h5>
-        <h5 class="mt-4">
-            <strong>Ingredientes</strong>
-        </h5>
+            </div>
+            <ul class="mt-3">
+                <li class="fonte fs-5">1 tablete de fermento biológico</li>
+                <li class="fonte fs-5">1 xícara (chá) de leite desnatado</li>
+                <li class="fonte fs-5">2 colheres (sopa) de azeite de oliva</li>
+                <li class="fonte fs-5">1 colher (chá) de sal</li>
+                <li class="fonte fs-5">1 xícara (chá) de farinha de trigo integral</li>
+                <li class="fonte fs-5">1 e 1/2 xícara (chá) de farinha de trigo</li>
+                <li class="fonte fs-5">100 g de sementes de gergelim</li>
+                <li class="fonte fs-5">1 clara</li>
+            </ul>
         </div>
-        <ul class="mt-3">
-            <li class="fonte fs-5">1 tablete de fermento biológico</li>
-            <li class="fonte fs-5">1 xícara (chá) de leite desnatado</li>
-            <li class="fonte fs-5">2 colheres (sopa) de azeite de oliva</li>
-            <li class="fonte fs-5">1 colher (chá) de sal</li>
-            <li class="fonte fs-5">1 xícara (chá) de farinha de trigo integral</li>
-            <li class="fonte fs-5">1 e 1/2 xícara (chá) de farinha de trigo</li>
-            <li class="fonte fs-5">100 g de sementes de gergelim</li>
-            <li class="fonte fs-5">1 clara</li>
-        </ul>
+        <div class="col m-5">
+          <img class="img-fluid rounded-3" src="../Img/GrissiniIntegral.jpg" alt="">
+        </div>
+      </div>
+    </div>
         <div class="mt-4">
             <h4>
                 <strong>Preparo</strong>

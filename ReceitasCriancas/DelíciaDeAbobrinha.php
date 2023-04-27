@@ -8,25 +8,30 @@
     <link rel="stylesheet" href="../Css/receitasEmGeral.css"> 
     <title>Delícia de abobrinha</title>
 </head>
-<body>
+<body class="fundo">
 <!-- cabecario  -->
 <?php 
     include 'menu.php'; 
 ?>
-<main class="container border border-3 mt-3 rounded-3">
+<main class="container border border-3 mt-3 rounded-3 bg-white">
     <div class="m-5">
+    <div class="container">
+      <div class="row">
+      <div>
+      <a class="text-black" href="../ReceitasCriancas.php">↞ Voltar</a>
+      </div>
+        <div class="col m-5">
         <div>
-            <h2 class="mt-3">Delícia de abobrinha</h2>
-        </div>
-        <div class="fonte fs-3 mt-4">
-            <h5>
-                <strong>Rendimento: 24 unidades</strong>
+                <h2 class="mt-3">Delicia de Abobrinha</h2>
+            </div>
+            <div class="fonte fs-3 mt-4">
+                <h5>
+                    <strong>Rendimento: 24 unidades</strong>
+                </h5>
+            <h5 class="mt-4">
+                <strong>Ingredientes</strong>
             </h5>
-        <h5 class="mt-4">
-            <strong>Ingredientes</strong>
-        </h5>
-        </div>
-        <div class="d-flex">
+            </div>
             <ul class="mt-3">
                 <li class="fonte fs-5">2 abobrinhas médias</li>
                 <li class="fonte fs-5">200 g de ricota amassada com o garfo</li>
@@ -37,18 +42,21 @@
                 <li class="fonte fs-5">1 colher (chá) de fermento em pó</li>
                 <li class="fonte fs-5">2 colheres (chá) de azeite de oliva</li>
             </ul>
-            
         </div>
+        <div class="col m-5">
+          <img class="img-fluid rounded-3" src="../Img/deliciaDeAbobrinha.jpg" alt="">
+        </div>
+      </div>
+    </div>
         <div class="mt-4">
             <h4>
                 <strong>Preparo</strong>
             </h4>
             <h6 class="fonte fs-5">
-            Rale as abobrinhas no ralo grosso e deixe descansar, em uma peneira, 
-            por cerca de 10 minutos. Misture o restante dos ingredientes. Modele 
-            bolinhas e coloque-as em uma assadeira untada com parte do azeite. 
-            Pincele as bolinhas com o restante do azeite e asse em forno alto (200 °C),
-             preaquecido, por cerca de 20 minutos.
+            Rale as abobrinhas no ralo grosso e deixe descansar, em uma peneira, por cerca de 10 minutos.
+             Misture o restante dos ingredientes. Modele bolinhas e coloque-as em uma assadeira untada com
+              parte do azeite. Pincele as bolinhas com o restante do azeite e asse em forno alto (200 °C)
+              , preaquecido, por cerca de 20 minutos.
             </h6>
         </div>
         <div class="mt-4">
@@ -64,7 +72,7 @@
     </tr>
     <tr>
       <td class="fonte fs-5">Calorias</td>
-      <td class="fonte fs-5">180 g</td>
+      <td class="fonte fs-5">108 g</td>
 
     </tr>
     <tr>

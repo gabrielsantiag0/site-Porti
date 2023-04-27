@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href=".">
     <title>Receitas</title>
 </head>
 <body>
+  <style>
+    .row{
+      margin: 0%;
+    }
+  </style>
     <!-- rodapé -->
-    <footer class="bg-danger mt-5">
+    <footer class="bg-danger mt-5 ">
       <div class="row text-center">    
-        <div class="col-4">
+        <div class="col-4 container">
           <div class="row">
               <div class="col">
                 <div class="col d-block p-5">
@@ -52,7 +56,7 @@
             </div>
         </div>
             <div class="col-8">
-        <div class="d-block">
+        <div class="d-block container">
          <a href="index.php">
           <img src="../Img/logoPequena2.jpg" alt="" class="mt-3 border border-white border-1 rounded rounded-3 mb-3">
          </a>

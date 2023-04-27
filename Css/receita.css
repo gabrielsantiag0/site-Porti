@@ -14,8 +14,9 @@ li{
 
 }
 body{
-    background-color: rgb(166, 169, 169);
+    background-color: #f1f1f1;
 }
+
 /* botao volta para o inicio */
 .voltar-ao-topo {
     position: fixed;

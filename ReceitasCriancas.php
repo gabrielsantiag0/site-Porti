@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="Css/ReceitasCriancas.css">
     <title>RECEITAS De CRIANÇAS</title>
 </head>
-<body>
+<body class="fundo">
      <!-- cabeçario -->
      <?php 
     include 'menu.php';
   ?>
     <!-- receitas  -->
-    <main class="container mt-5 border border-1 border-black">
+    <main class="container mt-5 border border-1 border-black bg-white">
         <div class="m-4">
           <a class="text-black" href="receita.php">&Larr; Voltar</a>
         </div>

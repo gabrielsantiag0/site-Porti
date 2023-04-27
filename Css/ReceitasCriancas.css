@@ -11,7 +11,9 @@ ul{
 li{
     text-decoration: none;
     list-style: none;
-
+}
+.fundo{
+    background-color: #f1f1f1;
 }
 /* botao volta para o inicio */
 .voltar-ao-topo {

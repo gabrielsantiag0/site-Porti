@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/receita.css">
     <title>Receitas</title>
 </head>
-<body class="bg-white">
+<body id="fundoo">
     <!-- cabeçario -->
 <?php 
   include 'menu.php';
