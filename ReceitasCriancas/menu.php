@@ -8,6 +8,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+  <style>
+    .row{
+      margin: 0%;
+    }
+  </style>
 <header class="">
       <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-danger">
         <div class="container-fluid bg-white">

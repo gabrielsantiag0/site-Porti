@@ -75,7 +75,18 @@
       <div class="row text-center me-5">
         <h6 class="text-white ms-5">Desenvolvido por Equipe Acesso Dm Mellitus&trade; 2023</h6>
         </div>
-     </footer>   
+     </footer>  
+     <style>
+      ul{
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+
+}
+     </style> 
 </body>
 <script src="Js/estilo.js"></script>
 </html>
