@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Css/bootstrap.min.css">
     <link rel="stylesheet" href="../Css/receitasEmGeral.css"> 
-    <title>Receita Croissant De Chuchu</title>
+    <title>Receita Quentão de frutas</title>
 </head>
 <body class="fundo">
     <!-- cabecario  -->
@@ -17,24 +17,24 @@
     <div class="m-5">
     <div class="container">
       <div>
-      <a class="text-black" href="../ReceitasCriancas.php">↞ Voltar</a>
+      <a class="text-black" href="../ReceitasJunina.php">↞ Voltar</a>
       </div>
       <div class="row">
         <div class="col m-5">
         <div>
-                <h2 class="mt-3">Croissant De Chuchu</h2>
+                <h2 class="mt-3">Quentão de frutas</h2>
             </div>
             <div class="fonte fs-3 mt-4">
                 <h5>
-                    <strong>Rendimento: 8  unidades</strong>
+                    <strong>Rendimento: 6  unidades</strong>
                 </h5>
             <h5 class="mt-4">
                 <strong>Ingredientes</strong>
             </h5>
             </div>
             <ul class="mt-3">
-                <li class="fonte fs-5">1 tablete de fermento biológico fresco (15 g)</li>
-                <li class="fonte fs-5">1 chuchu cozido com casca</li>
+                <li class="fonte fs-5">2 canelas em pau</li>
+                <li class="fonte fs-5">2 laranjas cortadas em rodelas</li>
                 <li class="fonte fs-5">1 ovo</li>
                 <li class="fonte fs-5">2 colheres (sopa) de óleo de canola</li>
                 <li class="fonte fs-5">1 colheres (sopa) de adoçante dietético em pó, próprio para forno e fogão</li>

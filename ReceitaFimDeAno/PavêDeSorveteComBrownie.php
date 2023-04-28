@@ -17,7 +17,7 @@
     <div class="m-5">
     <div class="container">
       <div>
-      <a class="text-black" href="../ReceitasCriancas.php">↞ Voltar</a>
+      <a class="text-black" href="../../ReceitasFimDeAno.php">↞ Voltar</a>
       </div>
       <div class="row">
         <div class="col m-5">

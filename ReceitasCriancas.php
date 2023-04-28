@@ -20,7 +20,9 @@
         <div class="row row-cols-1 row-cols-md-2 g-4 m-4">
             <div class="col">
               <div class="card">
-                <img src="img/crossntDeChuChu.jpg" class="card-img-top" alt="...">
+             <a href="./ReceitasCriancas/CroissantDeChuchu.php">
+               <img src="img/crossntDeChuChu.jpg" class="card-img-top" alt="Imagem do crossnt de chuchu ">
+             </a>
                 <div class="card-body">
                   <h5 class="card-title">Croissant de chuchu</h5>
                   <p class="card-text">Rendimento: 8 unidades Ingredientes 1 tablete de fermento biológico fresco (15 g)1 chuchu cozido com casca1 ovo2 colheres (sopa) de...</p>
@@ -30,7 +32,9 @@
             </div>
             <div class="col">
               <div class="card">
-                <img src="img/GrissiniIntegral.jpg" class="card-img-top" alt="...">
+                <a href="./ReceitasCriancas/GrissiniIntegral.php">
+                  <img src="img/GrissiniIntegral.jpg" class="card-img-top" alt="imagem do Grissini Integral">
+                </a>
                 <div class="card-body">
                   <h5 class="card-title">Grissini integral</h5>
                   <p class="card-text">Rendimento: 36 unidades Ingredientes 1 tablete de fermento biológico1 xícara (chá) de leite desnatado2 colheres (sopa) de azeite de oliva1...</p>
@@ -40,7 +44,9 @@
             </div>
             <div class="col">
               <div class="card">
-                <img src="img/deliciaDeAbobrinha.jpg" class="card-img-top" alt="...">
+                <a href="./ReceitasCriancas/DelíciaDeAbobrinha.php">
+                  <img src="img/deliciaDeAbobrinha.jpg" class="card-img-top" alt="imagem Delicia de abobrinha">
+                </a>
                 <div class="card-body">
                   <h5 class="card-title">Delícia de abobrinha</h5>
                   <p class="card-text">Rendimento: 24 unidades Ingredientes 2 abobrinhas médias200 g de ricota amassada com o garfo1 ovo2 colheres (sopa) de cheiro-verde picado1...</p>
@@ -50,7 +56,9 @@
             </div>
             <div class="col">
               <div class="card">
-                <img src="img/PicoleDeBanana.jpg" class="card-img-top" alt="...">
+                <a href="./ReceitasCriancas/PicoléDeBanana.php">
+                  <img src="img/PicoleDeBanana.jpg" class="card-img-top" alt="imagem picolé de Banana">
+                </a>
                 <div class="card-body">
                   <h5 class="card-title">Picolé de Banana</h5>
                   <p class="card-text">Rendimento: 6 porções Ingredientes 500 ml de leite desnatado1 colher (sobremesa) de amido de milho1 colher (sopa) de adoçante dietético...</p>
@@ -60,7 +68,9 @@
             </div>
             <div class="col">
                 <div class="card">
-                  <img src="img/GelatinaColorida.jpg" class="card-img-top" alt="...">
+                  <a href="./ReceitasCriancas/GelatinaColorida.php">
+                    <img src="img/GelatinaColorida.jpg" class="card-img-top" alt="imagem Gelatina Colorida">
+                  </a>
                   <div class="card-body">
                     <h5 class="card-title">Gelatina Colorida</h5>
                     <p class="card-text">Rendimento: 10 porções Ingredientes 3 envelopes de gelatina em pó dietética (sabores de sua preferência)1 envelope de gelatina em pó...</p>
@@ -82,11 +92,11 @@
                     LINKS
                   </h6>
                   <li class="text-white text-center">
-                    <h6> <a class="nav-link" href="FaleConosco.html">Contato</a></h6>
-                    <h6> <a class="nav-link" href="download.html">Download</a></h6>
-                    <h6> <a class="nav-link" href="receita.html">Receitas</a></h6>
+                    <h6> <a class="nav-link" href="FaleConosco.php">Contato</a></h6>
+                    <h6> <a class="nav-link" href="download.php">Download</a></h6>
+                    <h6> <a class="nav-link" href="receita.php">Receitas</a></h6>
                     <h6> <a class="nav-link" href="https://diabetesplay.com.br/">Videos</a></h6>
-                    <h6> <a class="nav-link" href="index.html">Home</a></h6>
+                    <h6> <a class="nav-link" href="index.php">Home</a></h6>
                   </li>
                 </ul>
               </div>
@@ -94,7 +104,7 @@
             <div class="col">
                 <div class="col d-block">
                   <div class="mt-5">
-                  <h6 class="p-3"><a href="FaleConosco.html" class="text-white">FALE-CONOSCO</a></h6>
+                  <h6 class="p-3"><a href="FaleConosco.php" class="text-white">FALE-CONOSCO</a></h6>
                 </div>
                 <div class="text-white">
                   Telefone: (11) 2185-9200
