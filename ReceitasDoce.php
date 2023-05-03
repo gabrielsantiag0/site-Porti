@@ -44,7 +44,7 @@
             <div class="col">
               <div class="card">
                 <a href="./ReceitaDoce/BoloDeBrigadeiro.php">
-                  <img src="Img/BoloDeBrigadeiro.jpg" class="card-img-top" alt="imagem bolo de brigadeiro">
+                  <img src="Img/Bolo de brigadeiro.jpg" class="card-img-top" alt="imagem bolo de brigadeiro">
                 </a>
                 <div class="card-body">
                   <h5 class="card-title">Bolo de brigadeiro</h5>
