@@ -1,81 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt_BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/footer.css">
-    <title>Document</title>
+    <title>Footer Responsivo</title>
 </head>
+
 <body>
     <footer>
-        <div class="container">
-            <div class="col">
-                <div class="conteudo">
-                    <div class="title">
-                        <strong>Sobre nós</strong>
-                    </div>
-                    <div class="txt">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus minima odit nam tempora eveniet perspiciatis reprehenderit modi ab ipsam nihil. Sapiente voluptas sint totam similique, nobis quis quisquam, quia asperiores aliquid repellat hic dolores, molestiae perspiciatis molestias architecto provident ut.</p>
-                    </div>
+        <div class="container-footer">
+            <div class="row-footer">
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#"> Quem somos </a></li>
+                        <li><a href=""> nossos serviços </a></li>
+                        <li><a href=""> política de privacidade </a></li>
+                        <li><a href=""> programa de parceria</a></li>
+                    </ul>
                 </div>
-                <div class="conteudo">
-                <div class="title">
-                        <strong>Links</strong>
-                    </div>
-                    <div class="txt-link">
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li class="pad"><a href="">Contato</a></li>
-                            <li class="pad"><a href="">Download</a></li>
-                            <li class="pad"><a href="">Receitas</a></li>
-                            <li class="pad"><a href="">Vídeos</a></li>
-                        </ul>
-                    </div>
+                <!--end footer col-->
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">Receitas</a></li>
+                        <li><a href="#">Vídeos</a></li>
+                    </ul>
                 </div>
-                <div class="conteudo-form">
-                    <div class="title">
-                        <strong>Contato</strong>
-                    </div>
-                        <form action="" class="form" method="post">
-                            <div class="email">
-                                <input id="email" type="email" name="email" placeholder="Digite seu email" required>
-                            </div>
-                            <div>
-                                <input type="submit" name="enviar" id="enviar" class="enviar-button" value="Enviar">
-                            </div>
+                <!--end footer col-->
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Informações</h4>
+                    <ul>
+                        <li><a href="#">Telefone</a></li>
+                        <li><a href="#">E-mail</a></li>
+                        <li><a href="#">Endereço</a></li>
+                        <li><a href="#">Parceiros</a></li>
+                    </ul>
+                </div>
+                <!--end footer col-->
+                <!-- footer col-->
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <div class="form-sub">
+                        <form>
+                            <input type="email" placeholder="Digite o seu e-mail" required>
+                            <button>Enviar</button>
                         </form>
-                    <div class="img-social">
-                        <div class="img">
-                            <img src="Img/footer/pngwing.com.png" alt="">
-                        </div>
-                        <div class="img">
-                            <img src="img/footer/pngwing.com (1).png" alt="" class="maior">
-                        </div>
-                        <div class="img">
-                            <img src="img/footer/pngwing.com (2).png" alt="">
-                        </div>
-                        </div>
+                    </div>
+
+                    <div class="medias-socias">
+                        <a href="#"> <i class="fa fa-facebook"></i> </a>
+                        <a href="#"> <i class="fa fa-instagram"></i> </a>
+                        <a href="#"> <i class="fa fa-twitter"></i> </a>
+                    </div>
+
                 </div>
-            </div>
-            <div class="conteudo1">
-                <div class="imgcentro">
-                    <img src="img/footer/pngwing.com (3).png" alt="">
-                    <p>Av. São Miguel - n°244 - São paulo</p>
-                </div>
-                <div class="imgcentro">
-                    <img src="img/footer/pngwing.com (4).png" alt="">
-                    <p>+55 11 95555-4444</p>
-                </div>
-                <div class="imgcentro">
-                    <img src="img/footer/pngwing.com (5).png" alt="" class="maior1">
-                    <p>mellitus@senacsp.edu.br</p>
-                </div>
-            </div>
-            <div class="direitos">
-                <h1>Desenvolvido por Equipe Acesso Dm Mellitus™ 2023</h1>
+                <!--end footer col-->
             </div>
         </div>
     </footer>
 </body>
+
 </html>
