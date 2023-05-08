@@ -259,6 +259,9 @@
                         </b>&nbsp;
                         <a class="text-primary" id="links" href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/diabetes">diabetes.gov</a>
                     </p>
+                            <footer class="w3-container d-flex">
+                  <button type="button" class="w3-button bg-primary mb-3" data-dismiss="w3-modal"  onclick="document.getElementById('id014').style.display='none'" >Fechar</button>
+                </footer>
                     </p>
                 </div>
               </div>
