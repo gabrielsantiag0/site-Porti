@@ -48,7 +48,7 @@
                 </div>
                 <!--end footer col-->
                 <!-- footer col-->
-                <div class="footer-col">
+                <div class="footer-col" id="contato">
                     <h4>Contato</h4>
                     <div class="form-sub">
                         <form>
