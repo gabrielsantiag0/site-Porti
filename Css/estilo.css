@@ -56,15 +56,29 @@ footer{
 }
 
 .ajscon{
-    display: grid;
-    grid-column: 1fr 5fr 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.inets{
-    display: grid;
-    grid-column-start: 2;
+.tamn{
+    width: 100px;
 }
 
+.fledu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fledu p{
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 div .collapse ul{
     padding-left: 600px;
@@ -72,5 +86,12 @@ div .collapse ul{
 @media (max-width: 1000px) {
     div .collapse ul{
         padding-left: 0;
+    }
+    .ajscon{
+        display: flex;
+        flex-direction: column;
+    }
+    .tamn{
+        width: 50px;
     }
 }

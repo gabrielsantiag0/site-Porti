@@ -26,50 +26,162 @@
       ?>
 
     <!-- Curiosidades -->
-    <section>
+<section>
       <div class="d-flex justify-content-center mt-3">
         <h3 class="border-bottom border-danger border-opacity-50" id="Curiosidades">Curiosidades</h3>
       </div>
-      <div class="ajscon">
+    <div class="ajscon">
 
         <!-- modal tipo 1  -->
-            <div class="inets">
+        <div class="inets">
 
-              <div class="">
+            <div class="inets1">
+                <div class="fledu">
+                    <img src="img/curiosidades.jpg" alt="" data-toggle="modal" data-target="#modalExemplo" class="tamn">
+                    <p class="text-center text-danger fs-3 me-5 textoTipo">
+                    TIPO 1
+                    </p>
+                </div>
+                <!-- modal button -->
+                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"><h1>Regras de pedidos</h1></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                         1- O pedido deve ser feito com 48horas de antecedencia e no maximo 90 dias. <br>
+                                         2-  Apenas um pedido por CPF. <br>
+                                         3- O cliente deve apresentar o documento na entrada do restaurante.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                     <a href="login_cliente.php"><button type="button" class="btn btn-primary">Continuar</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- fim -->
+            </div>
+        </div>
+                <!-- modal tipo 1  -->
+        <div class="inets">
 
-              </div>
-              <img src="img/curiosidades.jpg" alt="" data-toggle="modal" data-target="#modalExemplo"  width="100px">
-              <p class="text-center text-danger fs-3 me-5 textoTipo">
-                TIPO 1
-              </p>
-              <!-- modal button -->
-                                              <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                   <div class="modal-dialog" role="document">
-                                                      <div class="modal-content">
-                                                          <div class="modal-header">
-                                                                <h5 class="modal-title" id="exampleModalLabel"><h1>Regras de pedidos</h1></h5>
-                                                                       <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                                                          <span aria-hidden="true">&times;</span>
-                                                                       </button>
-                                                              </div>
-                                                                   <div class="modal-body">
-                                      
-                                                                      <p>
-                                                                          1- O pedido deve ser feito com 48horas de antecedencia e no maximo 90 dias. <br>
-                                                                          2-  Apenas um pedido por CPF. <br>
-                                                                          3- O cliente deve apresentar o documento na entrada do restaurante.
-                                                                      </p>
-                                                                  </div>
-                                                               <div class="modal-footer">
-                                                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                                                                    <a href="login_cliente.php"><button type="button" class="btn btn-primary">Continuar</button></a>
-                                                              </div>
-                                                           </div>
-                                                      </div>
-                                                      </div>
-                                                </div>
-      </div>
-    </section>
+            <div class="inets1">
+                <div class="fledu">
+                    <img src="img/curiosidades.jpg" alt="" data-toggle="modal" data-target="#modalExemplo"  class="tamn">
+                    <p class="text-center text-danger fs-3 me-5 textoTipo">
+                    TIPO 1
+                    </p>
+                </div>
+                <!-- modal button -->
+                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"><h1>Regras de pedidos</h1></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                         1- O pedido deve ser feito com 48horas de antecedencia e no maximo 90 dias. <br>
+                                         2-  Apenas um pedido por CPF. <br>
+                                         3- O cliente deve apresentar o documento na entrada do restaurante.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                     <a href="login_cliente.php"><button type="button" class="btn btn-primary">Continuar</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- fim -->
+            </div>
+        </div>
+                <!-- modal tipo 1  -->
+        <div class="inets">
+
+            <div class="inets1">
+                <div class="fledu">
+                    <img src="img/curiosidades.jpg" alt="" data-toggle="modal" data-target="#modalExemplo"  class="tamn">
+                    <p class="text-center text-danger fs-3 me-5 textoTipo">
+                    TIPO 1
+                    </p>
+                </div>
+                <!-- modal button -->
+                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"><h1>Regras de pedidos</h1></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                         1- O pedido deve ser feito com 48horas de antecedencia e no maximo 90 dias. <br>
+                                         2-  Apenas um pedido por CPF. <br>
+                                         3- O cliente deve apresentar o documento na entrada do restaurante.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                     <a href="login_cliente.php"><button type="button" class="btn btn-primary">Continuar</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- fim -->
+            </div>
+        </div>
+                <!-- modal tipo 1  -->
+        <div class="inets">
+
+            <div class="inets1">
+                <div class="fledu">
+                    <img src="img/curiosidades.jpg" alt="" data-toggle="modal" data-target="#modalExemplo" class="tamn">
+                    <p class="text-center text-danger fs-3 me-5 textoTipo">
+                    TIPO 1
+                    </p>
+                </div>
+                <!-- modal button -->
+                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"><h1>Regras de pedidos</h1></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                         1- O pedido deve ser feito com 48horas de antecedencia e no maximo 90 dias. <br>
+                                         2-  Apenas um pedido por CPF. <br>
+                                         3- O cliente deve apresentar o documento na entrada do restaurante.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                     <a href="login_cliente.php"><button type="button" class="btn btn-primary">Continuar</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- fim -->
+            </div>
+        </div>
+    </div>
+</section>
     <!-- rodapé  -->
     <?php 
     include 'footer_novo.php';
