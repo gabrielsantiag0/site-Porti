@@ -115,8 +115,39 @@
                         </div>
                     </div>
                 </div>
-                <input type="submit" name="enviar" id="enviar"
+                <!-- <input type="submit" name="enviar" id="enviar"
                              class="continue-button" value="Cadastrar">
+ -->
+                <div class="inets1">
+                    <div class="fledu">
+                        <input type="submit" name="enviar" id="enviar" class="continue-button" value="Cadastrar" data-toggle="modal" data-target="#modalExemplo">
+                    </div>
+                    <!-- modal button -->
+                        <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel"><h1>Regras de pedidos</h1></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            1- O pedido deve ser feito com 48horas de antecedencia e no maximo 90 dias. <br>
+                                            2-  Apenas um pedido por CPF. <br>
+                                            3- O cliente deve apresentar o documento na entrada do restaurante.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                        <a href="login_cliente.php"><button type="button" class="btn btn-primary">Continuar</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- fim -->
+                </div>
             </form>
         </div>
     </div>

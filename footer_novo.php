@@ -29,8 +29,7 @@
                 <div class="footer-col">
                     <h4>Links</h4>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="#">Download</a></li>
                         <li><a href="#">Receitas</a></li>
                         <li><a href="#">Vídeos</a></li>
