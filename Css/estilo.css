@@ -54,3 +54,23 @@ footer{
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
+
+.ajscon{
+    display: grid;
+    grid-column: 1fr 5fr 1fr;
+}
+
+.inets{
+    display: grid;
+    grid-column-start: 2;
+}
+
+
+div .collapse ul{
+    padding-left: 600px;
+}
+@media (max-width: 1000px) {
+    div .collapse ul{
+        padding-left: 0;
+    }
+}

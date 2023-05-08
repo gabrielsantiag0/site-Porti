@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.col{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.ajs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avisos{
+    display: grid;
+    grid-column-start: 2;
+}
+
+.conta{
+    display: grid;
+    display: flex;
+    grid-column-end: 5;
+}

@@ -1,0 +1,49 @@
+.colunacentro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 180px;
+    padding-right: 180px;
+    grid-template-rows: 80vh;
+}
+
+.colunac1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colunac2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 100px 200px;
+    background-color: #eee;
+    width: 90%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.0em;
+    text-transform: uppercase;
+}
+
+.conteudos{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.texto{
+    display: flex;
+    padding-left: 20px;
+    justify-content: left;
+    align-items: center;
+}
