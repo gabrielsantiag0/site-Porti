@@ -27,9 +27,9 @@
 
     <!-- Curiosidades -->
 <section>
-      <div class="d-flex justify-content-center mt-3">
-        <h3 class="border-bottom border-danger border-opacity-50" id="Curiosidades">Curiosidades</h3>
-      </div>
+     <div class="titulocrsdd">
+        <h1>Curiosidade</h1>
+     </div>
     <div class="ajscon">
 
         <!-- modal tipo 1  -->
