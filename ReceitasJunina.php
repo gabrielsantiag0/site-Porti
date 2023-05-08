@@ -57,7 +57,7 @@
           </div>
     </main>
     <!-- rodapé -->
-<?php include 'footer.php';?>
+    <?php include 'footer_novo.php';?>  
 </body>
 <script src="Js/estilo.js"></script>
 </html>

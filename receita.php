@@ -272,7 +272,7 @@
     </main>
     <!-- rodapé -->
 <?php 
-  include 'footer.php';
+  include 'footer_novo.php';
 ?>
     <!-- botao voltar para o top  -->
     <?php 
