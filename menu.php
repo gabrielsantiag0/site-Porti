@@ -17,13 +17,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ajus">
         <li class="nav-item">
-          <a class="nav-link active text-white  fs-5"  href="index.php">Home</a>
+          <a class="nav-link active text-white fs"  href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white fs-5" href="receita.php">Receitas</a>
+          <a class="nav-link text-white fs" href="receita.php">Receitas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white fs-5" href="#contato">Contato</a>
+          <a class="nav-link text-white fs" href="#contato">Contato</a>
         </li>
       </ul>
     </div>

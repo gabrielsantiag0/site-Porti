@@ -19,9 +19,9 @@
                     <h4>Empresa</h4>
                     <ul>
                         <li><a href="sobreNos.php"> Quem somos </a></li>
-                        <li><a href=""> nossos serviços </a></li>
+                        <li><a href="nossoservico.php"> nossos serviços </a></li>
                         <li><a href=""> política de privacidade </a></li>
-                        <li><a href=""> programa de parceria</a></li>
+                        <li><a href="https://diabetes.org.br/"> programa de parceria</a></li>
                     </ul>
                 </div>
                 <!--end footer col-->

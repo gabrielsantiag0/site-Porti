@@ -96,7 +96,9 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
 }
-
+ul li a{
+    font-size: 1.7em;
+}
 .ajus li{
     padding-left: 40px;
 }
