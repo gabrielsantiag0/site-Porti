@@ -19,16 +19,6 @@
       <div class="carousel-caption d-none d-md-block">  
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="img/242a347575_100778_01-intro-859.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block"> 
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="img/mellituscarocel.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-      </div>
-    </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

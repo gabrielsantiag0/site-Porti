@@ -11,7 +11,7 @@
 <?php include 'menu.php';?>
 
 <!-- receita  -->
-<main class="container border border-3 mt-3 rounded-3 bg-white">
+<main class="container border border-3 mt-3 rounded-3 bg-white mb-3">
     <div class="m-5">
     <div class="container">
       <div class="row">
