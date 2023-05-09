@@ -38,6 +38,9 @@
     <?php 
     include 'footer_novo.php';
   ?>
+    <?php
+    include 'BotaoTop.php';
+    ?>
 </body>
 <script src="Js/estilo.js"></script>
 </html>
