@@ -8,6 +8,13 @@
     <title>Carrossel index</title>
 </head>
 <body>
-
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/Compromisso_Com_A_Vida.png" class="d-block w-100" alt="...">
+    </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
