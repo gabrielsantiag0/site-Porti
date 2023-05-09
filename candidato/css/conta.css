@@ -47,3 +47,7 @@
     justify-content: left;
     align-items: center;
 }
+
+table{
+    padding: 100px;
+}

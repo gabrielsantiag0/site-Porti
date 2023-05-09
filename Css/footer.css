@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 footer{
-    background-color: #ca4141e3;
+    background-color: rgb(223, 59, 59);
     padding: 50px 0;
 }
 .container-footer{
@@ -73,7 +73,7 @@ footer{
 }
 
 .footer-col .medias-socias a:hover{
-    color: #ca4141e3;
+    color: rgb(223, 59, 59);
     background-color: white;
 }
 .footer-col .form-sub input{
@@ -96,7 +96,7 @@ footer{
     outline: none;
     border: none;
     cursor: pointer;
-    color: #ca4141e3;
+    color: rgb(223, 59, 59);
     border-radius: 3px;
     font-weight: bold;
     background-color: white;        

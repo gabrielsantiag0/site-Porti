@@ -1,3 +1,8 @@
+<?php 
+    include '../conexao/conn.php';
+    $consulta = "SELECT * FROM usuarios";
+    $con = $conn->query($consulta);
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -12,25 +17,16 @@
     <?php include 'superior.php'?>
     <?php include 'subsuperior.php'?>
     
-    <div class="colunacentro">
-        <div class="colunac1">
-            <div class="card1">
-                <div class="title">
-                    <h1>Nome</h1>
-                </div>
-                <div class="conteudos">
-                    <div class="texto">
-                        <p>Email:</p>
-                    </div>
-                    <div class="texto">
-                        <p>nascimento:</p>
-                    </div>
-                    <div class="texto">
-                        <p>Telefone:</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <table>
+        <?php while($dado = $con->fetch_assoc()){?>
+        <tr>
+            <td><?php echo $dado['nome'];?></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <?php }?>
+    </table>
         <div class="colunac2">
         <div class="card1">
                 <div class="title">

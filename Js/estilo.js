@@ -24,5 +24,3 @@ btnVoltarAoTopo.addEventListener('click', function() {
     behavior: 'smooth'
   });
 });
-
-  

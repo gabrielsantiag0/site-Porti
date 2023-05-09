@@ -102,7 +102,7 @@ footer{
 }
 
 div .collapse ul{
-    padding-left: 470px;
+    padding-left: 550px;
 }
 
 @media (max-width: 1400px) {
@@ -122,3 +122,7 @@ div .collapse ul{
         width: 50px;
     }
 }
+
+.bg{
+    background-color: rgb(223, 59, 59);
+} 
