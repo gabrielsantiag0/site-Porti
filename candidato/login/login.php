@@ -20,7 +20,9 @@
             $_SESSION['nome_da_sessao'] = session_name();
             if($rowLogin['nivel']=='USE'){
                 echo "<script>window.open('../index.php','_self')</script>";
-            }   
+            }else{
+                echo "<script>window.open('invasor.php','_self')</script>";
+            }
         }
 
     }

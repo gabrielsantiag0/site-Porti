@@ -7,6 +7,8 @@
 
     //verificar se o usuario esta logado na sessão
     if(!isset($_SESSION['nome'])){
+        $nomeuser = $_SESSION['nome'];
+        $_SESSION = $nomeuser;
         //se nao existir, redirecionamos a sessão por segurança
         header('location: login/login.php');
         exit;

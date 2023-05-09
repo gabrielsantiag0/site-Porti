@@ -51,9 +51,9 @@
                     <span class="ajuste">teste</span>
                 </a>
             </li>                                           
-            <li><a href="" class="logout">
+            <li><a href="login/sair.php" class="logout">
                     <i class="fas fa-sign-out-alt"></i>
-                    <span class="ajst">teste</span>
+                    <span class="ajst">sair</span>
                 </a>
             </li>                                           
         </ul>  
