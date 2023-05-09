@@ -18,7 +18,7 @@
                 <div class="footer-col">
                     <h4>Empresa</h4>
                     <ul>
-                        <li><a href="#"> Quem somos </a></li>
+                        <li><a href="../sobreNos.php"> Quem somos </a></li>
                         <li><a href=""> nossos serviços </a></li>
                         <li><a href=""> política de privacidade </a></li>
                         <li><a href=""> programa de parceria</a></li>
@@ -29,10 +29,10 @@
                 <div class="footer-col">
                     <h4>Links</h4>
                     <ul>
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="../index.php">Home</a></li>
                         <li><a href="#">Download</a></li>
-                        <li><a href="#">Receitas</a></li>
-                        <li><a href="#">Vídeos</a></li>
+                        <li><a href="../receita.php">Receitas</a></li>
+                        <li><a href="https://diabetesplay.com.br/">Vídeos</a></li>
                     </ul>
                 </div>
                 <!--end footer col-->
@@ -58,9 +58,9 @@
                     </div>
 
                     <div class="medias-socias">
-                        <a href="#"> <i class="fa fa-facebook"></i> </a>
-                        <a href="#"> <i class="fa fa-instagram"></i> </a>
-                        <a href="#"> <i class="fa fa-twitter"></i> </a>
+                        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://pt-br.facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/i/flow/login"> <i class="fa fa-twitter"></i></a>
                     </div>
 
                 </div>
