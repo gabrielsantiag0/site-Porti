@@ -10,20 +10,20 @@
 <body>
 <nav class="navbar navbar-expand-lg bg-danger">
   <div class="container-fluid">
-    <a class="navbar-brand text-white" href="index.php"><img src="Img/logopequenaweb.png" alt=""></a>
+    <a class="navbar-brand text-white fs-2" href="index.php"><img src="Img/logopequenaweb.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ajus">
         <li class="nav-item">
-          <a class="nav-link active text-white"  href="index.php">Home</a>
+          <a class="nav-link active text-white  fs-5"  href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="receita.php">Receitas</a>
+          <a class="nav-link text-white fs-5" href="receita.php">Receitas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#contato">Contato</a>
+          <a class="nav-link text-white fs-5" href="#contato">Contato</a>
         </li>
       </ul>
     </div>

@@ -58,7 +58,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="container">
-                                        <p class="fs-4 modalfont">
+                                        <p class="fs-5 modalfont">
                                             &nbsp; &nbsp; Em algumas pessoas, o sistema imunológico ataca equivocadamente as
                                             células beta. Logo, pouca ou nenhuma insulina é liberada para o corpo.
                                             Como resultado, a glicose fica no sangue, em vez de ser usada como
@@ -110,7 +110,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="container">
-                                        <p class="fs-4 modalfont">
+                                        <p class="fs-5 modalfont">
                                           &nbsp; &nbsp;  O tipo 2 aparece quando o organismo não consegue usar adquadamente a insulina que produzir;
                                             ou não produz insulina suficiente para controla a taxa de glicemia. Cerca de 90%
                                             das pessoas com diabetes têm o Tipo 2. Ele se manifesta mais frequentemente em adultos,

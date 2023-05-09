@@ -55,8 +55,9 @@ footer{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
-}
+} 
 
+.collapse
 .ajscon{
     display: flex;
     justify-content: center;
@@ -93,8 +94,23 @@ footer{
     text-transform: uppercase;
 }
 
+.text-white{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.ajus li{
+    padding-left: 40px;
+}
+
 div .collapse ul{
-    padding-left: 600px;
+    padding-left: 470px;
+}
+
+@media (max-width: 1400px) {
+    div .collapse ul{
+        padding-left: 300px;
+    }
 }
 @media (max-width: 1000px) {
     div .collapse ul{
