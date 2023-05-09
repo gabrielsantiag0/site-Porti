@@ -58,7 +58,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="container">
-                                        <p class="fs-5 modalfont">
+                                        <p class="fs-4 modalfont">
                                             &nbsp; &nbsp; Em algumas pessoas, o sistema imunológico ataca equivocadamente as
                                             células beta. Logo, pouca ou nenhuma insulina é liberada para o corpo.
                                             Como resultado, a glicose fica no sangue, em vez de ser usada como
@@ -104,14 +104,14 @@
                                     <h5 class="modal-title" id="exampleModalLabel">
                                         <h1>Diabete Tipo 2</h1>
                                     </h5>
-                                    <button type="button" class="close" data-dismiss="modal2" aria-label="Fechar">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <div class="modal2-body">
+                                <div class="modal-body">
                                     <div class="container">
                                         <p class="fs-4 modalfont">
-                                            O tipo 2 aparece quando o organismo não consegue usar adquadamente a insulina que produzir;
+                                          &nbsp; &nbsp;  O tipo 2 aparece quando o organismo não consegue usar adquadamente a insulina que produzir;
                                             ou não produz insulina suficiente para controla a taxa de glicemia. Cerca de 90%
                                             das pessoas com diabetes têm o Tipo 2. Ele se manifesta mais frequentemente em adultos,
                                             mas crianças também podem apresentar. Dependendo da gravidade, ele pode ser controlado com atividade física
