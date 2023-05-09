@@ -13,7 +13,7 @@
     include 'menu.php';
   ?>
     <!-- receitas  -->
-    <main class="container mt-5 border border-1 border-black bg-white">
+    <main class="container mt-5 border border-1 border-black bg-white mb-5">
         <div class="m-4">
           <a class="text-black" href="receita.php">&Larr; Voltar</a>
         </div>

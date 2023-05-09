@@ -28,7 +28,7 @@
             </div>
             <div class="fonte fs-3 mt-4">
                 <h5>
-                    <strong>Rendimento: 36 unidades</strong>
+                    <strong>Rendimento: 10 unidades</strong>
                 </h5>
             <h5 class="mt-4">
                 <strong>Ingredientes</strong>
