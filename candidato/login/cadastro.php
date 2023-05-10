@@ -34,7 +34,7 @@
             $resultado = $conn->query($cadastro);
     };
     if(mysqli_insert_id($conn)){
-        echo "<script>alert('cadastro concluido');</script>";
+        echo "<script>window.open('cadastro2.php','_self')</script>";
     }
 
 ?>
@@ -53,8 +53,11 @@
     <title>Formulário</title>
 </head>
 
-<body>
-    <div class="container">
+<body class="body">
+    <div class="container-1">
+        <div class="form-image">
+            <img src="../../Img/img-cadastro.svg" alt="">
+        </div>
         <div class="form">
             <form action="cadastro.php" method="post" name="form_usuario_insere"
                     enctype="multipart/form-data" id="form_usuario_insere" >
@@ -121,7 +124,7 @@
                         </div>
                     </div>
                 </div>
- <input type="submit" name="enviar" id="enviar"  class="continue-button" value="Cadastrar">
+            <input type="submit" name="enviar" id="enviar"  class="continue-button" value="Continuar">
 
             </form>
         </div>

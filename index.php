@@ -102,7 +102,7 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h5 class="modal-title" id="exampleModalLabel">
-                                        <h1>Diabete Tipo 2</h1>
+                                        <h1>TERMOS E CONDIÇÕES DE USO</h1>
                                     </h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                                         <span aria-hidden="true">&times;</span>

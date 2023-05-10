@@ -25,6 +25,14 @@
         <li class="nav-item">
           <a class="nav-link text-white fs" href="#contato">Contato</a>
         </li>
+        <li class="nav-item btou">
+          <a class="nav-link text-white fs" href="candidato/login/login.php">
+            <button type="button" class="btn btn-outline-light ">Login</button>
+          </a>
+          <a class="nav-link text-white fs" href="candidato/login/cadastro.php">
+            <button type="button" class="btn btn-outline-light ">Cadastrar-se</button>
+          </a>
+        </li>
       </ul>
     </div>
   </div> 
