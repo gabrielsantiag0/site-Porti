@@ -1,6 +1,10 @@
 <?php 
+    $termo = $_POST['termo'];
+    if($termo = 'termo'){
 
-
+    }else{
+      echo "<script>alert('Termos de uso não prenchido');</script>";
+    }
 
 
 // if(mysqli_insert_id($conn)){
@@ -57,8 +61,8 @@
                 <div class="gender-inputs">
                     <div class="gender-group" >
                         <div class="gender-input1">
-                            <input id="genero" type="radio" name="genero" value="feminino">
-                            <label for="feminino">Concordo com os <a href="" data-toggle="modal" data-target="#modalExemplo2" class="tamn">Termos de uso</a> </label>
+                            <input id="termo" type="radio" name="genero" value="termo">
+                            <label for="termo">Concordo com os &nbsp;<a href="" data-toggle="modal" data-target="#modalExemplo2" class="tamn">Termos de uso</a> </label>
                         </div>
                         <div class="modal fade" id="modalExemplo2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
