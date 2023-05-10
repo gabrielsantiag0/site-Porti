@@ -1,10 +1,9 @@
-<?php 
-    $termo = $_POST['termo'];
-    if($termo = 'termo'){
-
-    }else{
-      echo "<script>alert('Termos de uso não prenchido');</script>";
-    }
+<?php
+$termo = $_POST['termo'];
+if ($termo = 'termo') {
+} else {
+    echo "<script>alert('Termos de uso não prenchido');</script>";
+}
 
 
 // if(mysqli_insert_id($conn)){
@@ -32,8 +31,7 @@
             <img src="../../Img/img_cadastro2.svg" alt="">
         </div>
         <div class="form">
-            <form action="cadastro.php" method="post" name="form_usuario_insere"
-                    enctype="multipart/form-data" id="form_usuario_insere1" >
+            <form action="cadastro.php" method="post" name="form_usuario_insere" enctype="multipart/form-data" id="form_usuario_insere1">
                 <div class="form-header">
                     <div class="title">
                         <h1>Informações</h1>
@@ -46,62 +44,114 @@
                 <div class="input-group1">
                     <div class="input-box">
                         <label for="remedio">Último remédio usado</label>
-                        <input id="remedio" type="text" name="remedio"  placeholder="Nome do remédio" required >
+                        <input id="remedio" type="text" name="remedio" placeholder="Nome do remédio" required>
                     </div>
                     <div class="input-box">
                         <label for="insulina">Insulina utilizada</label>
-                        <input id="insulina" type="text" name="insulina"  placeholder="Nome do remédio" required >
+                        <input id="insulina" type="text" name="insulina" placeholder="Nome do remédio" required>
                     </div>
                     <div class="input-box">
                         <label for="glicemia">Último valor de Glicemia</label>
-                        <input id="glicemia" type="text" name="glicemia"  placeholder="Nome do remédio" required >
+                        <input id="glicemia" type="text" name="glicemia" placeholder="Nome do remédio" required>
                     </div>
                 </div>
 
                 <div class="gender-inputs">
-                    <div class="gender-group" >
+                    <div class="gender-group">
                         <div class="gender-input1">
                             <input id="termo" type="radio" name="genero" value="termo">
                             <label for="termo">Concordo com os &nbsp;<a href="" data-toggle="modal" data-target="#modalExemplo2" class="tamn">Termos de uso</a> </label>
                         </div>
                         <div class="modal fade" id="modalExemplo2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">
-                                        <h1>Diabete Tipo 2</h1>
-                                    </h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="container">
-                                        <p class="fs-5 modalfont">
-                                          &nbsp; &nbsp;  O tipo 2 aparece quando o organismo não consegue usar adquadamente a insulina que produzir;
-                                            ou não produz insulina suficiente para controla a taxa de glicemia. Cerca de 90%
-                                            das pessoas com diabetes têm o Tipo 2. Ele se manifesta mais frequentemente em adultos,
-                                            mas crianças também podem apresentar. Dependendo da gravidade, ele pode ser controlado com atividade física
-                                            e planejamento alimentar. Em outros casos, exige o uso de insulina e/ou outros medicamentos para controlar a glicose.
-                                        </p>
-                                        <p class="text-start mt-3 textoTipo fs-5 ms-3 d-flex"><b>
-                                                Saiba mais sobre a diabete:
-                                            </b>&nbsp;
-                                            <a class="text-primary" id="links" href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/diabetes">diabetes.gov</a>
-                                        </p>
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">
+                                            <h1>TERMOS E CONDIÇÕES DE USO DO SITE</h1>
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
                                     </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <p class="fs-5 modalfont">
+                                                &nbsp; &nbsp;1. Este Termo refere-se ao Acessa DMellitus. Ao navegar neste site e usar os serviços que são fornecidos, você AFIRMA que LEU, COMPREENDEU e CONCORDA com nossos Termos e Condições. Estes Termos e Condições abrangem todos os aplicativos, serviços de Internet ou extensões dos sites relacionados. Caso você não concorde ou não tenha ficado claro algum ponto, sugere-se que você NÃO NAVEGUE MAIS NELE até que você tenha sanado todas as suas dúvidas. Você poderá ainda, a qualquer tempo, retornar ao site, clicar e termos de uso e reler quantas vezes desejar.
+                                                Termos e Condições
+                                                2. Os Termos e Condições do Acessa DMellitus regem o uso deste Site e todo o seu conteúdo ("Site"). Estes Termos descrevem as regras e regulamentos que orientam o uso de Acessa DMellitus localizado em www.AcessaDMellitus.com. Todos os materiais/informações/documentos/serviços ou todas as outras entidades (coletivamente referidas como "conteúdo'') que aparecem no www.AcessaDMellitus.com serão administrados de acordo com estes Termos e Condições.
+
+                                                ATENÇÃO: Não continue a usar este site se você tiver qualquer objeção a qualquer um dos Termos e Condições declarados nesta página.
+
+                                                3. O site é destinado a usuários com 18 (dezoito) anos de idade ou mais. Se você tem menos de 18 (dezoito) anos, não poderá usar ou registrar-se para usar este site ou seus serviços sem a permissão ou consentimento dos pais. Ao concordar com estes Termos e Condições, você tem a capacidade legal necessária para cumprir e ficar vinculado por estes Termos e Condições.
+
+                                                4. Acessa DMellitus faz uso de cookies. Ao acessar nosso site, você concorda em usar cookies de acordo com nossa Política de Cookies. "Algum dos nossos parceiros de site podem usar cookies."
+
+                                                5.Acessa DMellitus detêm os direitos de propriedade intelectual de todo o conteúdo. Todos os direitos de propriedade intelectual são reservados. Você pode acessar qualquer conteúdo do site para seu uso pessoal, sujeito às restrições definidas nestes termos e condições.
+
+                                                Acessa DMellitus, por meio deste, determina que o usuário do site não cometa as seguintes ações:
+                                                • Reproduzir, republicar, duplicar ou copiar qualquer conteúdo do Acessa DMellitus ;
+                                                • Vender, alugar, sublicenciar e/ou de outra forma comercializar qualquer conteúdo doAcessa DMellitus ;
+                                                • Executar e / ou exibir publicamente qualquer conteúdo do Acessa DMellitus ;
+                                                • Usar este site de forma que seja, ou talvez, danifique e/ou afete o acesso do usuário a este site;
+                                                • Usar este site contrário às regras, leis e regulamentos relevantes do seu país de residência, ou de uma maneira que cause, ou possa causar, danos ao site ou a qualquer pessoa ou entidade comercial;
+                                                • Realizar mineração de dados ou qualquer outra atividade semelhante relacionada a este site, ou durante o uso deste site; e
+                                                • Usando este site para se envolver em qualquer forma de publicidade ou marketing empresarial.
+                                                6. Áreas específicas deste site podem ser restritas ao acesso do usuário, e Acessa DMellitus pode estender ainda mais essa restrição a todo o site, a qualquer momento e a seu exclusivo critério. Qualquer identificação de usuário, chave de segurança ou senha que você possa ter neste site são confidenciais e você é responsável por manter a confidencialidade dessas informações.
+                                                Link e Hiperlink
+                                                7. Nós nos reservamos o direito de registrar solicitações para que você remova todos os links ou qualquer link específico criado por você que redirecione para o nosso site, e você aprova a remoção imediata desses links para o nosso site, mediante solicitação.
+
+                                                8. Podemos alterar os termos e condições desses direitos de vinculação a qualquer momento. Ao conectar-se continuamente ao nosso site, você concorda em se comprometer e seguir os termos desta política de links.
+
+                                                9. Por favor, entre em contato conosco se encontrar algum link em nosso site que seja ofensivo, e poderemos considerar e analisar solicitações de remoção de tais links.
+
+                                                Link para conteúdo de terceiros
+
+                                                10.Este site pode conter links para sites ou aplicativos operados por terceiros. Não controlamos nenhum desses sites ou aplicativos de terceiros ou o operador de terceiros. Este Site, objeto do presente Termos de Uso não é responsável e não endossa quaisquer sites ou aplicativos de terceiros ou sua disponibilidade ou conteúdo.
+                                                Acessa DMellitus não se responsabiliza pelos anúncios contidos no site. Você concorda em fazê-lo por sua própria conta e risco ao adquirir quaisquer bens e / ou serviços de terceiros. O anunciante é quem permanece responsável por tais bens e/ou serviços, e se você tiver alguma dúvida ou reclamação sobre eles, você deve entrar em contato com o anunciante
+                                                Conteúdo do usuário
+                                                11.Importante salientar que o termo usado "Conteúdo do Usuário" significa qualquer áudio, vídeo, texto, imagens ou outro material ou conteúdo que você decida exibir neste Site. Com relação ao conteúdo do usuário, ao exibi-lo, você concede ao Acessa DMellitus uma licença não exclusiva, mundial, irrevogável, isenta de royalties e sublicenciável para usar, reproduzir, adaptar, publicar, traduzir e distribuir em qualquer mídia.
+
+                                                12.O Conteúdo do Usuário deve ser seu e não deve infringir os direitos de terceiros. Acessa DMellitus reserva-se o direito de remover qualquer parte do seu conteúdo deste site a qualquer momento, sem aviso prévio. Acessa DMellitus tem permissão para monitorar suas atividades no site e remover qualquer conteúdo do usuário considerado impróprio, ofensivo, contrário às leis e regulamentos aplicáveis, ou que cause uma violação destes Termos e Condições.
+                                                Política de Privacidade
+                                                13. Ao acessar este Site, informações específicas sobre o Usuário, como endereços de protocolo de Internet (IP), navegação no site, software do usuário e tempo de navegação, juntamente com outras informações semelhantes, serão armazenadas nos servidores de Acessa DMellitus. As informações sobre suas identidades, como nome, endereço, detalhes de contato, informações de faturamento e outras informações armazenadas neste site, serão estritamente usadas apenas para fins estatísticos e não serão publicadas para acesso geral. Acessa DMellitus, no entanto, não assume nenhuma responsabilidade pela segurança dessas informações.
+
+                                                14. O site é fornecido, com todas as responsabilidades e não assume compromissos, representações ou garantias expressas ou implícitas de qualquer tipo relacionadas a este site ou ao conteúdo nele contido.
+
+                                                Indenização
+
+                                                15. O usuário concorda em indenizar o Site e suas afiliadas em toda a extensão, frente à todas as ações, reclamações, responsabilidades, perdas, danos, custos, demandas e despesas decorrentes do uso deste Site pelo Usuário, incluindo, sem limitação, qualquer reclamação relacionada à violação de qualquer uma das disposições destes Termos e Condições. Se estiver insatisfeito com algum ou todo o conteúdo deste site ou qualquer um ou todos os seus Termos e Condições, o usuário pode interromper o uso deste site.
+
+                                                16. Em qualquer momento, os usuários podem interromper o uso do Site para isso, no site, estão disponíveis as orientações necessárias. Caso ainda fique alguma dúvida, não hesite em enviar um e-mail para AcessaDM@outlook.com.
+
+                                                17. Nós nos reservamos o direito e critério exclusivo de, e sem aviso prévio ou responsabilidade, negar o acesso e uso do site (incluindo o bloqueio de endereços IP específicos) a qualquer usuário por qualquer motivo, incluindo, mas não se limitando à violação de qualquer representação, garantia ou acordo nestes Termos ou em qualquer lei ou regulamento aplicável.
+
+                                                Disposições Gerais
+
+                                                18. Os Termos e Condições deste site serão regidos e interpretados de acordo com as leis do país ou estado em que o Site opera. Você, por meio deste, se submete incondicionalmente à jurisdição não exclusiva dos tribunais localizados no Brasil para a resolução de quaisquer disputas.
+
+                                                19. Este Site reserva-se o direito de revisar estes Termos a qualquer momento conforme julgar adequado. Por isso é fundamental que os seus usuários estejam atentos à essas alterações.
+
+                                                20. O Site reserva-se o direito de ceder, transferir e subcontratar seus direitos e/ou obrigações sob este Acordo sem qualquer notificação ou consentimento prévio necessário. Os usuários não terão permissão para atribuir, transferir ou subcontratar qualquer um de seus direitos e/ou obrigações sob estes Termos. Além disso, uma pessoa que não seja parte destes Termos e Condições não terá o direito de fazer cumprir qualquer disposição neles contida.
+
+                                                21. Estes Termos e Condições, incluindo quaisquer avisos legais e isenções de responsabilidade neste site, constituem o acordo completo entre o Site e você em relação ao uso deste site. Em última análise, este Acordo substitui todos os acordos e entendimentos anteriores relativos ao mesmo.
+
+                                                22. Qualquer dúvida, entre em contato por meio do endereço de e-mail:
+                                                AcessaDM@outlook.com.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
-                        
-                    </div>
-                    
+
                 </div>
-            <input type="submit" name="enviar" id="enviar"  class="continue-button" value="Cadastrar">
+                <input type="submit" name="enviar" id="enviar" class="continue-button" value="Cadastrar">
 
             </form>
         </div>
@@ -110,4 +160,5 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </html>
