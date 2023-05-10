@@ -32,10 +32,16 @@
         ('$nome','$sobrenome','$email','$nascimento','$senha','$genero','$nivel')
         ";
             $resultado = $conn->query($cadastro);
+            session_start();
+            $uid = mysqli_insert_id($conn);
+            $_SESSION['id_ultimo'] = $uid;
     };
+
     if(mysqli_insert_id($conn)){
         echo "<script>window.open('cadastro2.php','_self')</script>";
     }
+
+    // anotação (mysqli_insert_id) recupera o ultimo id colocado na tabela...
 
 ?>
 
@@ -111,7 +117,7 @@
                     <div class="gender-group" >
                         <div class="gender-input">
                             <input id="genero" type="radio" name="genero" value="feminino">
-                            <label for="feminino">Feminino&nbsp; &nbsp; </label>
+                            <label for="feminino">Feminino </label>
                         </div>
 
                         <div class="gender-input"> 

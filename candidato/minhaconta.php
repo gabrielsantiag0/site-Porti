@@ -1,4 +1,8 @@
-<?php 
+<?php
+
+include "acesso_com.php";
+
+
     include '../conexao/conn.php';
     $consulta = "SELECT * FROM usuarios";
     $con = $conn->query($consulta);

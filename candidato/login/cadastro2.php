@@ -1,14 +1,40 @@
 <?php
-$termo = $_POST['termo'];
-if ($termo = 'termo') {
-} else {
-    echo "<script>alert('Termos de uso não prenchido');</script>";
-}
+     include '../../conexao/conn.php';
+
+session_start();
+$uit = $_SESSION['id_ultimo'];
+    $date = date('d/m/Y');
+    if('termo' > 1){
+        if($_POST){
+            $remedio = $_POST['remedio'];
+            $insulina = $_POST['insulina'];
+            $glicemia = $_POST['glicemia'];
+
+            $cadastrargli = "INSERT glicemia
+            (valor, dia, id_user)
+            VALUES
+            ('$glicemia','$date','$uit')
+             ";
+             $resultado = $conn->query($cadastrargli);
+
+            $cadastrarrmd = "INSERT medicacoes
+            (remedio, id_user, insulina)
+            VALUES
+            ('$remedio','$uit','$insulina')
+            ";
+            $resultado1 = $conn->query($cadastrarrmd);
+
+        }
+    }else{
+        echo "<script>alert('Termos de uso não preenchido');</script>";
+    }
 
 
-// if(mysqli_insert_id($conn)){
-//     echo "<script>alert('cadastro concluido');</script>";
-// }
+        if(mysqli_insert_id($conn)){
+            echo "<script>alert('cadastro concluido');</script>";
+            echo "<script>window.open('../index.php','_self')</script>";
+
+        }
 ?>
 
 
@@ -31,7 +57,7 @@ if ($termo = 'termo') {
             <img src="../../Img/img_cadastro2.svg" alt="">
         </div>
         <div class="form">
-            <form action="cadastro.php" method="post" name="form_usuario_insere" enctype="multipart/form-data" id="form_usuario_insere1">
+            <form action="cadastro2.php" method="post" name="form_usuario_insere" enctype="multipart/form-data" id="form_usuario_insere1">
                 <div class="form-header">
                     <div class="title">
                         <h1>Informações</h1>
