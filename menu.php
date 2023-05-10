@@ -23,7 +23,7 @@
           <a class="nav-link text-white fs" href="receita.php">Receitas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white fs" href="#contato">Contato</a>
+          <a class="nav-link text-white fs" href="faleconosco.php">Contato</a>
         </li>
         <li class="nav-item btou">
           <a class="nav-link text-white fs" href="candidato/login/login.php">
