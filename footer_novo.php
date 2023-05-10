@@ -30,7 +30,7 @@
                     <h4>Links</h4>
                     <ul>
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="#">Download</a></li>
+                        <li><a href="download.php">Download</a></li>
                         <li><a href="receita.php">Receitas</a></li>
                         <li><a href="https://diabetesplay.com.br/">Vídeos</a></li>
                     </ul>
