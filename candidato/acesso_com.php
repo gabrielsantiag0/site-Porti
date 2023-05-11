@@ -4,6 +4,7 @@
         session_start();
         if(isset($_GET['logout'])){
             unset($_SESSION['nome']);
+            unset($_SESSION['id_user']);
             session_destroy();
             header('location: ../index.php');
             exit;
@@ -14,6 +15,7 @@
     // segurança digital..
 
     //verificar se o usuario esta logado na sessão
+
     if(!isset($_SESSION['nome'])){
         $nomeuser = $_SESSION['nome'];
         $_SESSION = $nomeuser;

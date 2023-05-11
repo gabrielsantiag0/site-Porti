@@ -2,7 +2,7 @@
 
 include "acesso_com.php";
     include '../conexao/conn.php';
-    $consulta = "SELECT * FROM usuarios where id = '$uid'";
+    $consulta = "SELECT * FROM usuarios where id = ''";
     $con = $conn->query($consulta);
 ?>
 <!DOCTYPE html>
