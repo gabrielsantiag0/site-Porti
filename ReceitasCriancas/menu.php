@@ -23,7 +23,7 @@
           <a class="nav-link text-white" href="../receita.php">Receitas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#contato">Contato</a>
+          <a class="nav-link text-white" href="../FaleConosco.php">Contato</a>
         </li>
       </ul>
     </div>
