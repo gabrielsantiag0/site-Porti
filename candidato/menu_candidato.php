@@ -1,5 +1,6 @@
 <?php 
-include "acesso_com.php"
+include '../conexao/conn.php';
+
 ?>
 
 
@@ -57,7 +58,7 @@ include "acesso_com.php"
                     <span class="ajuste">teste</span>
                 </a>
             </li>                                           
-            <li><a href="login/sair.php" class="logout">
+            <li><a href="sair.php?logout" class="logout">
                     <i class="fas fa-sign-out-alt"></i>
                     <span class="ajst">sair</span>
                 </a>

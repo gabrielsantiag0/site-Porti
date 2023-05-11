@@ -24,7 +24,7 @@
     <!-- carousel  -->
 
     <?php
-    include 'carousel.php';
+    include 'carrossel.php';
     ?>
 
     <!-- Curiosidades -->

@@ -48,6 +48,9 @@
     align-items: center;
 }
 
-table{
+.table{
+    display: grid;
+    grid-template-rows: 50px;
     padding: 100px;
 }
+

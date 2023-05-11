@@ -13,7 +13,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="col">
+    <div class="colla">
             <div class="ajs avisos">
                 <span>Aviso</span>
             </div>

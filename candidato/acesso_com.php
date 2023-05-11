@@ -2,6 +2,14 @@
     session_name('dmellitus');
     if(!isset($_SESSION)){
         session_start();
+        if(isset($_GET['logout'])){
+            unset($_SESSION['nome']);
+            session_destroy();
+            header('location: ../index.php');
+            exit;
+            
+        
+        }
     }
     // segurança digital..
 
@@ -16,10 +24,6 @@
     $nome_da_sessao = session_name();
     if(!isset($_SESSION['nome_da_sessao'])
         or ($_SESSION['nome_da_sessao']!=$nome_da_sessao)
-    ){
-        session_destroy();
-        header('location: login/login.php');
-        exit;
-    }
- 
+    )
+
 ?>
